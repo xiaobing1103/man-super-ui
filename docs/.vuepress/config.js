@@ -1,10 +1,10 @@
 const path = require('path')
 module.exports = {
-    base:'/sakura-ui/',
+    base:'/super-ui/',
     title: 'Super UI',
     description: 'Inspiration from element-ui',
     head: [
-      ['link', { rel: 'icon', href: '/favicon.ico' }]
+      ['link', { rel: 'icon', href: '/app.ico' }]
     ],
     themeConfig: {
       nav: [

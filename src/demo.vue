@@ -15,31 +15,26 @@ export default {
     return {
     }
   },
-  computed: {
-
-  },
-  mounted () {
-  },
   methods: {
 
     x () {
       let func1 = () => {
         this.$toast({
           message: '报名成功',
-          duration: 1500 ,
-          type:'success'})
+          duration: 1500,      
+          type: 'success' })
       }
       let func2 = () => {
         this.$toast({
           message: '期待你下次再来',
           duration: 1500,
-          type:'info'})
+          type: 'info' })
       }
       let func3 = () => {
         this.$toast({
           message: '你为什么啥都没点就跑了',
           duration: 2500,
-          type:'error' })
+          type: 'error' })
       }
       this.$modal({
         title: '一个来自朋友的邀请',

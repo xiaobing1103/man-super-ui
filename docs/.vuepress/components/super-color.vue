@@ -3,16 +3,16 @@
     <div class="palette">
       <div style="height:50px;width:100%"> 点击扇子上的颜色，还有下方白色按钮可以折叠的哦~~</div>
       <div class="row">
-        <sakura-fan :list="list1" @selectColor="changeDisplay" ref="fan1"></sakura-fan>
-        <sakura-fan :list="list2"  @selectColor="changeDisplay" ref="fan2"></sakura-fan>
+        <super-fan :list="list1" @selectColor="changeDisplay" ref="fan1"></super-fan>
+        <super-fan :list="list2"  @selectColor="changeDisplay" ref="fan2"></super-fan>
       </div>
       <div class="row">
-        <sakura-fan :list="list3" @selectColor="changeDisplay" ref="fan3"></sakura-fan>
-        <sakura-fan :list="list4"  @selectColor="changeDisplay" ref="fan4"></sakura-fan>
+        <super-fan :list="list3" @selectColor="changeDisplay" ref="fan3"></super-fan>
+        <super-fan :list="list4"  @selectColor="changeDisplay" ref="fan4"></super-fan>
       </div>
       <div class="row">
-        <sakura-fan :list="list5" @selectColor="changeDisplay" ref="fan5"></sakura-fan>
-        <sakura-fan :list="list6"  @selectColor="changeDisplay" ref="fan6"></sakura-fan>
+        <super-fan :list="list5" @selectColor="changeDisplay" ref="fan5"></super-fan>
+        <super-fan :list="list6"  @selectColor="changeDisplay" ref="fan6"></super-fan>
       </div>
     </div>
     <div class="introduction" :style="{backgroundColor:display.color,transition:'1.5s'}">
@@ -24,15 +24,15 @@
      
 </template>
 <script>
-import SakuraFan from './sakura-fan'
+import superFan from './super-fan'
 import {list1, list2 ,list3,list4, list5,list6} from '../../static/js/color'
 export default {
-  name:'sakura-color',
+  name:'super-color',
   data(){
     return {
       display:{
         cnName:'桜',
-        jpName:'SAKURA',
+        jpName:'super',
         color:'#FEDFE1'
       },
       value:'',
@@ -59,7 +59,7 @@ export default {
     }
   },
   components:{
-    'sakura-fan': SakuraFan
+    'super-fan': superFan
   }
 }
 </script>

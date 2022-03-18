@@ -54,11 +54,11 @@ export default {
         return ['top', 'middle', 'bottom'].includes(val)
       }
     },
-    type:{
+    type: {
       type: String,
       default: 'info',
-      validator(val){
-        return ['info','warning','success', 'error'].includes(val)
+      validator (val) {
+        return ['info', 'warning', 'success', 'error'].includes(val)
       }
     }
   },
