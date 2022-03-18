@@ -1,39 +1,49 @@
-# man-super-ui
+# sakura-ui
+[![Build Status](https://www.travis-ci.org/Firenzia/sakura-ui.svg?branch=master)](https://www.travis-ci.org/Firenzia/sakura-ui)
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+## Introduction
+This is an UI framework based on Vue. The inspiration comes from Sakura :cherry_blossom:. 
+I haven't finished it completely, so dont't use it in the production development. 
+Hope u will like it~:heart: If u like it, please give me a :star:.
+I wrote an article in **juejin.im** to record some details in building this framework.:point_right: [here](https://juejin.im/post/5cd8b450e51d453a580fa8e1) . 
+U can give me some feedback. :smile:
 
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+## demo
+:point_right: [https://firenzia.github.io/sakura-ui/](https://firenzia.github.io/sakura-ui/)</br>
+![avatar](https://user-gold-cdn.xitu.io/2019/5/14/16ab1f527248e169?imageslim)
+![avatar](https://user-gold-cdn.xitu.io/2019/5/14/16ab1f8f4d386114?imageslim)
+![avatar](https://user-gold-cdn.xitu.io/2019/5/14/16ab3cec51014934?imageslim)
 
 
-#### 特技
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## Usage
+1. Install package [man-super-ui]
+   ```sh
+   npm i -D man-super-ui
+   ```
+2. Get Started
+   ```vue
+    <template>
+        <div id="app">
+            <s-button type="primary">点击报名</s-button>
+        </div>
+    </template>
+
+    <script>
+    import {Button} from 'man-super-ui'
+    import 'man-super-ui/dist/super.css'
+    export default {
+        name: 'app',
+        components: {
+            's-button':Button
+        }
+    }
+    </script>
+
+   ```
+    
+## Issue
+
+## Changelog
+
+## Contribution

@@ -1,7 +1,7 @@
-# man-super-ui
+# Super-Ui
 
 #### Description
-{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}
+super-ui libary
 
 #### Software Architecture
 Software architecture description
