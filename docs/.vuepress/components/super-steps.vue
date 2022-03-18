@@ -27,9 +27,9 @@
     <h3>带图标的步骤条</h3>
     <s-card>
        <s-steps :active="active3" space="200" >
-        <s-step title="步骤 1" description="1992年我出生" icon="shamrock"></s-step>
-        <s-step title="步骤 2" description="1999年我上学前班" icon="shamrock"></s-step>
-        <s-step title="步骤 3" description="2005年我小学毕业" icon="shamrock"></s-step>
+        <s-step title="步骤 1" description="first" icon="shamrock"></s-step>
+        <s-step title="步骤 2" description="second" icon="shamrock"></s-step>
+        <s-step title="步骤 3" description="third" icon="shamrock"></s-step>
        </s-steps>
       <button @click="set3">click</button>
       

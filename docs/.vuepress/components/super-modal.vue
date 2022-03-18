@@ -31,24 +31,24 @@ export default {
             clickHandler () {
               let func1 = () => {
                 this.$toast({
-                  message: '报名成功',
+                  message: '你点击了确认',
                   duration: 1500,
                   type:'success' })
               }
               let func2 = () => {
                 this.$toast({
-                  message: '期待你下次再来',
+                  message: '你点击了取消',
                   duration: 1500 })
               }
               let func3 = () => {
                 this.$toast({
-                  message: '你为什么啥都没点就跑了',
+                  message: '你没有触发任何操作',
                   duration: 2500,
                   type:'error'})
               }
               this.$modal({
-                title: '一个来自朋友的邀请',
-                content: '今天晚上去大学城吗',
+                title: '模态框',
+                content: '模态框内容',
                 btnConfig: {
                   'confirmText': '确认',
                   'confirmCallback': func1,
@@ -69,24 +69,24 @@ export default {
      clickHandler () {
       let func1 = () => {
         this.$toast({
-          message: '报名成功',
+          message: '你点击了确认',
           duration: 1500,
           type:'success'})
       }
       let func2 = () => {
         this.$toast({
-          message: '期待你下次再来',
+          message: '你点击了取消',
           duration: 1500 })
       }
       let func3 = () => {
         this.$toast({
-          message: '你为什么啥都没点就跑了',
+          message: '你没有触发任何操作',
           duration: 2500,
           type: 'error' })
       }
       this.$modal({
-        title: '一个来自朋友的邀请',
-        content: '今天晚上去大学城吗?',
+        title: '模态框',
+        content: '模态框内容?',
         btnConfig: {
           'confirmText': '确认',
           'confirmCallback': func1,
@@ -97,22 +97,24 @@ export default {
       })
     },
      clickHandler2 () {
-      let func1 = () => {
+      let func3 = () => {
         this.$toast({
-          message: '报名成功',
-          duration: 1500 })
+          message: '你没有触发任何操作',
+          duration: 2500,
+          type: 'error' })
       }
       this.$modal({
-        title: '换肤测试',
-        content: '<p style="color:#ffa500;margin:0;padding:0">这个颜色你喜欢吗?</p>',
+        title: '更换颜色的模态框内容',
+        content: '<p style="color:#ffa500;margin:0;padding:0">模态框内容?</p>',
         enableContentHtml: true,
         btnConfig: {
           'confirmText': '确认',
           'confirmCallback': ()=>{
             this.$toast({
-              message: '阿里嘎多~~',
+              message: '你点击了确认',
               duration: 1500 })
-            }
+            },
+            'cancelModalCallback': func3
         } 
       })
     }

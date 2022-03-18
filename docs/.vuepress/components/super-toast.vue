@@ -27,11 +27,11 @@ export default {
           methods: {
             showToast() {
               this.$toast({
-                message: "我从天而降啦啦啦~~。",
+                message: "Toastmsg~~。",
                 closeBtn: {
                   btnText: "关闭",
                   callback: function(toast) {
-                    console.log("用户说他知道啦");
+                    console.log("打印值");
                     console.log(toast.componentMethod());
                   }
                 }
@@ -48,7 +48,7 @@ export default {
   methods: {
     showToast() {
       this.$toast({
-        message: "端午放假三天，请周知",
+        message: "由于疫情原因在家办公！",
         closeBtn: {
           btnText: "关闭",
           callback: function(toast) {
@@ -67,7 +67,7 @@ export default {
     },
     showToast3() {
       this.$toast({
-        message: "GDG活动报名成功",
+        message: "活动报名成功",
         position:'middle',
         type:'success'
       });

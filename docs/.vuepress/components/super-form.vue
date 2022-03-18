@@ -6,13 +6,13 @@
           <span>请随意填写下方表单并提交，本例子含多种校验规则，详细可以展开代码查看~</span>
           <h3>登录</h3>
           <s-form-item label="姓名" name="name">
-            <s-input type="text" v-model="user.name" placeholder="试一下输入Bingo"></s-input>
+            <s-input type="text" v-model="user.name" placeholder="请输入姓名"></s-input>
           </s-form-item>
           <s-form-item label="年龄"  name="age"  >
-            <s-input type="number" v-model="user.age" placeholder="输入一个正常人的年龄哦"></s-input>
+            <s-input type="number" v-model="user.age" placeholder="请输入年龄"></s-input>
           </s-form-item>
           <s-form-item label="数量"  name="count">
-            <s-input type="number" v-model="user.count"></s-input>
+            <s-input type="number" v-model="user.count" placeholder="请输入数量"></s-input>
           </s-form-item>
           <div style="display:flex;justify-content:flex-end">
             <s-button class="ok" @click="submit" style="width:60px">提交</s-button>

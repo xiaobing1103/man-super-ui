@@ -56,8 +56,7 @@
       "plugin:vue/essential",
       "@vue/standard"
     ],
-    "rules": {
-    },
+    "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
     }
@@ -71,5 +70,9 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  }
 }
