@@ -1,6 +1,13 @@
 <template>
   <div style="margin:60px">
     <s-button @click="x">show modal</s-button>
+ <br>
+ <br>
+ <br>
+ <br>
+  <div>
+    <s-icon name="loading" color="red" hoverColor="green"></s-icon>
+    </div>
   </div>
 </template>
 <script>

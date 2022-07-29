@@ -10,7 +10,9 @@
           <s-icon 
           :name="item" 
           class="ico" 
-          :color="selectList.includes(item) ? '#B02324' : ''">
+          :color="selectList.includes(item) ? '#B02324' : ''"
+          
+          >
           </s-icon>
           <div class="ico-name">{{ item }}</div>
         </div>
@@ -54,7 +56,7 @@ export default {
 .ico-wrapper {
   width: 140px;
   height: 120px;
-  display: flex;
+  display: flex; 
   flex-direction: column;
   justify-content: center;
   align-items: center;
