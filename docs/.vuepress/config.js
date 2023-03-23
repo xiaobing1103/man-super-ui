@@ -5,7 +5,7 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        '@assets': '/man-super-ui/assets',
+        '@assets': './assets',
       },
     },
   },
