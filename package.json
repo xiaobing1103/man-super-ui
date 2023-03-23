@@ -9,7 +9,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name super src/index.js",
     "test:unit": "vue-cli-service test:unit",
-    "docs:dev": "vuepress dev docs",
+    "docs:dev": "SET NODE_ENV=development&&vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "repository": {

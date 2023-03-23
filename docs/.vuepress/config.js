@@ -1,10 +1,12 @@
 const path = require('path')
+
+const env = process.env.NODE_ENV ? '/' : '/man-super-ui/'
 module.exports = {
   base: '/man-super-ui/',
   title: 'Super UI',
   configureWebpack: {
     output: {
-      publicPath: '/man-super-ui/',
+      publicPath: env,
     },
   },
   description: 'Inspiration from element-ui',
