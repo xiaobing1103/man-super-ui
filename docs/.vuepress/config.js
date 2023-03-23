@@ -1,8 +1,14 @@
 const path = require('path')
 module.exports = {
   base: '/man-super-ui/',
-  publicPath: '/man-super-ui/',
   title: 'Super UI',
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@assets': '/man-super-ui/assets',
+      },
+    },
+  },
   description: 'Inspiration from element-ui',
   head: [['link', { rel: 'icon', href: '/app.ico' }]],
   themeConfig: {
