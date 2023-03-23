@@ -1,6 +1,6 @@
 const path = require('path')
 module.exports = {
-    // base:'/dist/',
+    base:'/man-super-ui/',
     title: 'Super UI',
     description: 'Inspiration from element-ui',
     head: [
