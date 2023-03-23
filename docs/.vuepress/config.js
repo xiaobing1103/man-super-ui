@@ -9,7 +9,7 @@ module.exports = {
     themeConfig: {
       nav: [
         { text: 'Home', link: '/' },
-        { text: 'Github', link: '#' },
+        { text: '支持', link: 'support.md' },
       ],
       sidebar: [
           {

@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitee.com/xiaobing1103/man-super-ui"
+    "url": "git+https://github.com/xiaobing1103/man-super-ui"
   },
   "keywords": [
     "UI",
@@ -23,9 +23,9 @@
   "author": "Firenzia",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitee.com/xiaobing1103/man-super-ui/issues"
+    "url": "https://github.com/xiaobing1103/man-super-ui/issues"
   },
-  "homepage": "https://gitee.com/xiaobing1103/super-ui#readme",
+  "homepage": "https://github.com/xiaobing1103/super-ui#readme",
   "dependencies": {
     "vue": "^2.6.10",
     "vue-highlightjs": "^1.3.3"
